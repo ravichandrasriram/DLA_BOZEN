@@ -293,7 +293,7 @@ class Detector():
         self.system_dict["params"]["evolve"] = evolve;
         self.system_dict["params"]["num_generations"] = num_generations;
         self.system_dict["params"]["bucket"] = "";
-        self.system_dict["params"]["weights"] = "'/content/drive/My Drive/Datasets/Results/BOZEN_RES/best.pt";
+        self.system_dict["params"]["weights"] = "/content/drive/My Drive/Datasets/Results/BOZEN_RES/best.pt";
         self.system_dict["params"]["arc"] = "default";
         self.system_dict["params"]["name"] = "";
         self.system_dict["params"]["device"] = gpu_devices;
